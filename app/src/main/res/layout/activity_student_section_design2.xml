@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context=".student_section_design_2">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="0dp"
+        app:contentPadding="@dimen/_10sdp"
+        app:strokeColor="@color/borderColor"
+        app:strokeWidth="0.3dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:text="Invite Students to Join your course"
+                android:textColor="@color/deepTextColor"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:includeFontPadding="false"
+                    android:text="Share course code :"
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="@dimen/_11ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:fontFamily="@font/roboto"
+                    android:includeFontPadding="false"
+                    android:paddingHorizontal="@dimen/_2sdp"
+                    android:text="100011"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/_11ssp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:text="Share join link :"
+                        android:textColor="@color/lightTextColor"
+                        android:textSize="@dimen/_11ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_2sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:paddingHorizontal="@dimen/_2sdp"
+                        android:text="https://app.diracai.com/ahc.gfd.ssw"
+                        android:textColor="@color/themeColor"
+                        android:textSize="@dimen/_11ssp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="0dp"
+                    app:cardBackgroundColor="@color/theme_color"
+                    app:cardCornerRadius="@dimen/_4sdp"
+                    app:cardElevation="0dp"
+                    app:strokeColor="#224C98"
+                    app:strokeWidth="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_medium"
+                        android:includeFontPadding="false"
+                        android:text="Add Student"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_10ssp" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="0dp"
+                    app:cardBackgroundColor="@color/backgroundColor"
+                    app:cardCornerRadius="@dimen/_4sdp"
+                    app:cardElevation="0dp"
+                    app:strokeWidth="0.3dp"
+                    app:strokeColor="@color/borderColorLight">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_medium"
+                        android:includeFontPadding="false"
+                        android:text="Copy Link"
+                        android:textColor="@color/themeColor"
+                        android:textSize="@dimen/_10ssp" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:paddingStart="0dp"
+        app:boxBackgroundColor="@color/white"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="@dimen/_2sdp"
+        app:boxCornerRadiusBottomStart="@dimen/_2sdp"
+        app:boxCornerRadiusTopEnd="@dimen/_2sdp"
+        app:boxCornerRadiusTopStart="@dimen/_2sdp"
+        app:boxStrokeColor="@color/lightTextColor"
+        app:boxStrokeWidth="0.6dp"
+        app:endIconMode="clear_text"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_tv_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:ems="12"
+            android:fontFamily="@font/roboto"
+            android:hint="Ex: Phone or Email or Name"
+            android:maxLines="1"
+            android:padding="@dimen/_4sdp"
+            android:paddingStart="@dimen/_4sdp"
+            android:textColorHint="@color/lightTextColor"
+            android:textSize="@dimen/_12ssp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardElevation="@dimen/_1sdp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/std_rec_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="horizontal"
+            tools:listitem="@layout/contact_detail_rec" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_2sdp"
+    app:cardElevation="0dp"
+    app:contentPadding="@dimen/_8sdp"
+    app:strokeColor="@color/borderColor"
+    app:strokeWidth="0.3dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_80sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_2sdp"
+            app:cardElevation="@dimen/_2sdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_of_biology" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:includeFontPadding="false"
+                    android:text="Name : "
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Concept Of Biology"
+                    android:textColor="@color/deepTextColor"
+                    android:textSize="@dimen/_12ssp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:text="Author : "
+                    android:includeFontPadding="false"
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Bruce Alberts"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/deepTextColor"
+                    android:textSize="@dimen/_12ssp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/_2sdp"
+                app:cardElevation="0dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto"
+                        android:text="Read"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|start"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:progress="50"
+                        app:indicatorColor="@color/themeColor"
+                        app:indicatorDirectionLinear="startToEnd"
+                        app:trackColor="@color/backgroundColor"
+                        app:trackCornerRadius="@dimen/_10sdp"
+                        app:trackThickness="@dimen/_10sdp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

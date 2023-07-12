@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Notification_Page">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_4sdp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:background="@null"
+            android:maxLines="1"
+            android:fontFamily="@font/roboto"
+            android:hint="Search notification"
+            android:textColorHint="@color/lightTextColor" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:src="@drawable/ic_baseline_filter_list_24" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/borderColor" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/n_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:spanCount="4"
+        tools:listitem="@layout/notification_design" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

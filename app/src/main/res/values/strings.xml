@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DiracAI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="demo_text">More than 6 years of experience in analyzing physics data using high level computer programming languages (C++,python etc. ) and Advanced statistical methods produced from the `most complex machine` ever built by humans [LHC, CERN, Geneva] and certified by reputed universities/institutes.</string>
+    <string name="myaddress">Akshay Bhasme, Ward No : 3, Sonegaon Road, Home Number 14, Chandur Railway, Dist - Amravati, Pin Code 444904, State - Maharashtra</string>
+    <string name="demo_text2">Every measurement has two parts. The first is a number (n), and the next is a unit (u). Q = nu. For example, the length of an object = 40 cm.</string>
+</resources>

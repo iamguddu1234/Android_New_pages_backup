@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_2sdp"
+            app:cardElevation="0dp"
+            app:contentPadding="@dimen/_8sdp"
+            app:strokeColor="@color/borderColor"
+            app:strokeWidth="0.3dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/institute_icon_aaksha" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Institute"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_institute_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="Aakash Institute"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/designed_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Designed for"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_class_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="Class - 12"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/subject_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Subject"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_subject_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="Biology"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/nu_of_student" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="No. of Students"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_number_of_student"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="100"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/status_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Status"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="Ongoinng"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/progress_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Progress"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="Not available"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/institute_icon_aaksha" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Institute code"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_institute_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="ABCDEF"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/upcoming_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Upcoming class"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_upcoming_class"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="9:30 am, Monday"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/credit_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Credit"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_credit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="N/A"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/no_of_exam_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_18sdp"
+                            android:text="No. of Exams"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_nu_of_exam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="3"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/assignment_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Pending Assignments"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_pending_assignment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="N/A"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/about_course_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="About the Course"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <TextView
+                        android:id="@+id/s_about_course"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="start"
+                        android:includeFontPadding="false"
+                        android:text="In this course we are going to discuss thermodynamics from basic to advance level"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@color/borderColor" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/duration_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Duration"
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <TextView
+                        android:id="@+id/s_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="end"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:text="27 Oct 2022 To 25 Oct 2022"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_8sdp">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_50sdp"
+            app:cardElevation="@dimen/_1sdp">
+
+            <ImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/teacher" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:text="Akshay Bhasme"
+                android:textColor="@color/deepTextColor"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto"
+                android:maxLines="1"
+                android:text="Hi How Are You Akshay "
+                android:textColor="@color/lightTextColor"
+                android:textSize="@dimen/_11ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_40sdp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/borderColor"
+            app:strokeWidth="0.3dp">
+
+
+            <ImageView
+                android:padding="@dimen/_2sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_add_24" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="@dimen/_51sdp"
+        android:background="@color/borderColor" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

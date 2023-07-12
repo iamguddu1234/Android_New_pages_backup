@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainAc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f4f7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <!--        <include layout="@layout/design_1" />-->
+
+        <!--        <include layout="@layout/design_2" />-->
+
+        <!--        <include layout="@layout/design_7"/>-->
+        <!--        <include layout="@layout/design_8"/>-->
+
+        <!--        <include layout="@layout/design_5" />-->
+
+        <!--        <include layout="@layout/design_6" />-->
+
+        <!--        <include layout="@layout/design_notice" />-->
+
+        <!--        <include layout="@layout/design_notice_2" />-->
+
+
+        <!--        <include layout="@layout/design_t1" />-->
+
+        <!--        <include layout="@layout/design_t2" />-->
+
+        <!--        <include layout="@layout/design_t3" />-->
+
+        <!--        <include layout="@layout/design_t4" />-->
+
+
+        <!--        <include layout="@layout/design_notice_2"/>-->
+        <!--        <include layout="@layout/class_card_design_1"/>-->
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/assignment"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="assignment"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/assignment_form"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="assignment_form"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moreDialog_fragment"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="More Page"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/summary_fragment"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Summary Fragment"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/publicProfile"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Public Profile"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/privateProfile"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Private Profile"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fraggment_disscusion"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Fragment_disc"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fraggment"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Fragment_bottomsheet"
+            android:textSize="@dimen/_10ssp" />
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/course_card"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Course Card"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/notice_card"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Notice Card"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/class_card"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Class Card"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/summary"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Summary Card"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/enroll_req"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Summary Card"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/meeting"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Meeting Card"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/student"
+                    android:layout_width="@dimen/_140sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="student_section"
+                    android:textSize="@dimen/_10ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/syllabus"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="syllabus_section"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_group_chat"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Add Group Chat"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cal_detail"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Cal Detail View"
+            android:textSize="@dimen/_10ssp" />
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/chat"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="chat_section"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/chat2"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="chat_section2"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/chat3"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="chat_section3"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/chat4"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="chat_section4"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/notificationid"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="notification"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/notification"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="notification"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/disscussid"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="disscuss"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/std2"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="student Section Design2"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/cd1"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Create Discussion Design1"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/cd2"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Create Discussion Design2"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/editNoticel"-->
+        <!--            android:layout_width="@dimen/_140sdp"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_20sdp"-->
+        <!--            android:insetTop="0dp"-->
+        <!--            android:insetBottom="0dp"-->
+        <!--            android:text="Edit Notice"-->
+        <!--            android:textSize="@dimen/_10ssp" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

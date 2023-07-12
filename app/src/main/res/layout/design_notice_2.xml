@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_6sdp"
+    app:cardElevation="@dimen/_3sdp">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_baseline_check_circle_outline_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Parents Metting"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/dot_menu" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:fontFamily="@font/roboto"
+            android:lineHeight="@dimen/_16sdp"
+            android:text="This is a notice to inform parents that we will be hosting a parent teacher meeting this Monday, October the 8th. We will be discussing your child, and their achievements, as well as their behavior so far this year. Please note that this meeting is mandatory for all children of the school."
+            android:textColor="#1E1E1E"
+            android:textSize="@dimen/_12ssp" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:src="@drawable/ic_baseline_person_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Posted By :"
+                    android:textColor="#9B9D9C"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="+91-885593799"
+                    android:textColor="#1274CF"
+                    android:textSize="@dimen/_12ssp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_access_time_filled_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Created At :"
+                    android:textColor="#9B9D9C"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="2:44pm, 03 Dec 2022"
+                    android:textColor="#1274CF"
+                    android:textSize="@dimen/_12ssp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            app:cardBackgroundColor="#50F2F6FC"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:cardElevation="0dp"
+            app:contentPaddingLeft="@dimen/_2sdp"
+            app:contentPaddingRight="@dimen/_2sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/ic_baseline_picture_as_pdf_24"
+                    android:drawablePadding="@dimen/_4sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Rohit Pan Card"
+                    android:textColor="#1E1E1E"
+                    android:textSize="@dimen/_12ssp" />
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_26sdp"
+                    android:layout_gravity="center_vertical|center"
+                    app:cardBackgroundColor="#2557A7"
+                    app:cardCornerRadius="@dimen/_12sdp"
+                    app:cardElevation="0dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="@dimen/_6sdp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_baseline_edit_24" />
+
+                        <View
+                            android:layout_width="0.8dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="@dimen/_2sdp"
+                            android:layout_marginVertical="@dimen/_2sdp"
+                            android:background="#F1F4F3" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="@dimen/_4sdp"
+                            android:rotation="45"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_baseline_add_24" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/roboto"
+                    android:text="Attachment :"
+                    android:textColor="#1E1E1E"
+                    android:textFontWeight="600"
+                    android:textSize="@dimen/_11ssp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_26sdp"
+                    android:layout_gravity="center_vertical|center"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    app:cardBackgroundColor="#2CA951"
+                    app:cardCornerRadius="@dimen/_6sdp"
+                    app:cardElevation="@dimen/_1sdp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_14sdp"
+                            android:layout_height="@dimen/_14sdp"
+                            android:layout_marginStart="@dimen/_6sdp"
+                            android:src="@drawable/ic_baseline_cloud_upload_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:text="Upload"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_11sdp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

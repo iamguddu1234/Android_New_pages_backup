@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="0dp"
+    app:contentPadding="@dimen/_10sdp"
+    app:strokeColor="@color/borderColor"
+    app:strokeWidth="0.3dp">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:includeFontPadding="false"
+            android:text="+91 1234569870"
+            android:textColor="@color/deepTextColor"
+            android:textSize="@dimen/_13ssp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:fontFamily="@font/roboto_medium"
+            android:includeFontPadding="false"
+            android:text="Wants to Enroll in Your"
+            android:textColor="@color/lightTextColor"
+            android:textSize="@dimen/_13ssp" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:text="Course :"
+                android:textColor="@color/lightTextColor"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/course_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:text="Basic Of mathematics"
+                android:textColor="@color/textGreenColor"
+                android:textSize="@dimen/_13ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/approve_btn"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:backgroundTint="@color/themeColor"
+                android:fontFamily="@font/roboto_medium"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                android:text="Approve"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp"
+                app:backgroundTint="@color/themeColor"
+                app:elevation="0dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/reject_btn"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:backgroundTint="@color/backgroundColor"
+                android:fontFamily="@font/roboto_medium"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                android:text="Reject"
+                android:textColor="@color/deepTextColor"
+                android:textSize="@dimen/_10ssp"
+                app:elevation="0dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</com.google.android.material.card.MaterialCardView>

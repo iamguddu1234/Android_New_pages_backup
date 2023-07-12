@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/df_discussion_card"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/borderColor"
+    app:strokeWidth="0.3dp"
+    app:rippleColor="@color/themeColor">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/green_dot" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_discussion_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:text="Discussion-6"
+                android:textColor="@color/deepTextColor"
+                android:textSize="@dimen/_13ssp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end|center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:includeFontPadding="false"
+                    android:text="Status :"
+                    android:textAllCaps="true"
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/status_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:includeFontPadding="false"
+                    android:text="open"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textGreenColor"
+                    android:textSize="@dimen/_10ssp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/borderColor" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/roboto_medium"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="What is Compound ?"
+            android:textColor="@color/deepTextColor"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/roboto"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="I want to know the difference between inertial and gravitational mass. And Einstein comment on it."
+            android:textColor="@color/lightTextColor"
+            android:textSize="@dimen/_12ssp" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/edit_btn"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Edit"
+                android:textColor="@color/themeColor"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="@dimen/_13ssp"
+                app:backgroundTint="@color/backgroundColor"
+                app:cornerRadius="@dimen/_4sdp"
+                app:rippleColor="#50224C98" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:paddingTop="@dimen/_5sdp"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:rotation="180"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/arrow_back"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginStart="@dimen/_8sdp"-->
+<!--            android:layout_marginTop="@dimen/_12sdp"-->
+<!--            android:layout_marginEnd="@dimen/_8sdp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/roboto"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:text="Created by :"-->
+<!--                android:textColor="@color/lightTextColor"-->
+<!--                android:textSize="@dimen/_11ssp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/created_by"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/_2sdp"-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:text="Dr. Bibhuprasad Mahakud"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/lightTextColor"-->
+<!--                android:textSize="@dimen/_11ssp" />-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginStart="@dimen/_8sdp"-->
+<!--            android:layout_marginTop="@dimen/_4sdp"-->
+<!--            android:layout_marginBottom="@dimen/_8sdp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/roboto"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:text="Last updated at :"-->
+<!--                android:textColor="@color/lightTextColor"-->
+<!--                android:textSize="@dimen/_11ssp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/last_updated_date"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/_2sdp"-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:text="22:34, 14 Jan 2023"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/lightTextColor"-->
+<!--                android:textSize="@dimen/_11ssp" />-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</com.google.android.material.card.MaterialCardView>

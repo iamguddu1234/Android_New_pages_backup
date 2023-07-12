@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_sheet_coordinate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:padding="@dimen/_5sdp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff"
+        android:layout_marginTop="?actionBarSize">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingStart="@dimen/_10sdp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/talk_title"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_16ssp"
+                    android:hint="Enter Talk title"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/_40sdp"
+                    android:gravity="start|center"
+                    android:text="From:"
+                    android:textSize="@dimen/_14ssp" />
+                <TextView
+                    android:id="@+id/time_picker_textview_from"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:minHeight="@dimen/_40sdp"
+                    android:gravity="start|center"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_14ssp"
+                    android:textColor="@color/black"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/_40sdp"
+                    android:gravity="start|center"
+                    android:text="To:"
+                    android:textSize="@dimen/_14ssp" />
+                <TextView
+                    android:id="@+id/time_picker_textview_to"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:minHeight="@dimen/_40sdp"
+                    android:gravity="start|center"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_14ssp"
+                    android:textColor="@color/black"
+                    android:paddingStart="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingEnd="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="duration: "
+                    android:textSize="@dimen/_14ssp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/duration"
+                    android:inputType="numberDecimal"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:hint="type duration in minutes"/>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_10sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add_speaker_text_view"
+                    android:text="Add speaker"
+                    android:textSize="@dimen/_16ssp"
+                    android:visibility="visible"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add_speaker_edit_text"
+                    android:textSize="@dimen/_14ssp"
+                    android:hint="Searchg by first name"
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp">
+                <Button
+                    android:id="@+id/save_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/theme_color"
+                    android:text="Save"
+                    android:textColor="@color/white" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

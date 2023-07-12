@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context=".Summary">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_2sdp"
+            app:cardElevation="0dp"
+            app:contentPadding="@dimen/_8sdp"
+            app:strokeColor="@color/borderColor"
+            app:strokeWidth="0.3dp">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:includeFontPadding="false"
+                    android:text="Course Name "
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="@dimen/_10sdp" />
+
+
+                <TextView
+                    android:id="@+id/s_course_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:includeFontPadding="false"
+                    android:text="Concept of Thermodynamics"
+                    android:textAllCaps="true"
+                    android:textColor="@color/deepTextColor"
+                    android:textSize="@dimen/_11sdp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:background="#E4E4E4" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:includeFontPadding="false"
+                    android:text="Course Code "
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="@dimen/_10sdp" />
+
+
+                <TextView
+                    android:id="@+id/s_course_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:includeFontPadding="false"
+                    android:text="ABCDEEFG"
+                    android:textColor="@color/deepTextColor"
+                    android:textSize="@dimen/_11sdp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_2sdp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/borderColor"
+            app:strokeWidth="0.3dp">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_2sdp"
+                    app:cardElevation="@dimen/_1sdp">
+
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/s_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/teacher" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/s_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:includeFontPadding="false"
+                        android:text="Mr. Bibhuprasad Mahakud"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <TextView
+                        android:id="@+id/s_contact_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:includeFontPadding="false"
+                        android:text="+91 -9897969594"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_13ssp" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            android:id="@+id/edit_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Edit"
+            android:textColor="@color/themeColor"
+            android:textSize="@dimen/_13ssp" />
+
+        <include layout="@layout/summary_new_view_1" />
+
+        <!--        <com.google.android.material.card.MaterialCardView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="@dimen/_10sdp"-->
+        <!--            app:cardBackgroundColor="@color/white"-->
+        <!--            app:cardCornerRadius="@dimen/_2sdp"-->
+        <!--            app:cardElevation="0dp"-->
+        <!--            app:contentPadding="@dimen/_8sdp"-->
+        <!--            app:strokeColor="@color/borderColor"-->
+        <!--            app:strokeWidth="0.3dp">-->
+
+        <!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/institute_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Institute"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_institute_name"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="Aakash Institute"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/designed_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Designed for"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_class_name"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="Class - 12"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/subject_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Subject"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_subject_name"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="Biology"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/nu_of_student" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="No. of Students"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_number_of_student"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="100"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/status_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Status"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_status"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="Ongoinng"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/duration_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Duration"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_duration"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:ellipsize="end"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:maxLines="1"-->
+        <!--                        android:text="27 Oct 2022 To 25 Oct 2022"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/progress_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Progress"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_progress"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="Not available"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/institute_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Institute code"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_institute_code"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="ABCDEF"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/upcoming_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Upcoming class"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_upcoming_class"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="9:30 am, Monday"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/credit_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Credit"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_credit"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="N/A"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/no_of_exam_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="No. of Exams"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_nu_of_exam"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="3"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/assignment_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="Pending Assignments"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_pending_assignment"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="N/A"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--                <View-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="0.2dp"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:background="@color/borderColor" />-->
+
+        <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_marginTop="@dimen/_4sdp"-->
+        <!--                    android:layout_marginBottom="@dimen/_4sdp"-->
+        <!--                    android:orientation="horizontal"-->
+        <!--                    android:weightSum="100">-->
+
+        <!--                    <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:orientation="horizontal">-->
+
+        <!--                        <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                            android:layout_width="@dimen/_14sdp"-->
+        <!--                            android:layout_height="@dimen/_14sdp"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:src="@drawable/about_course_icon" />-->
+
+        <!--                        <TextView-->
+        <!--                            android:layout_width="wrap_content"-->
+        <!--                            android:layout_height="wrap_content"-->
+        <!--                            android:layout_gravity="center_vertical"-->
+        <!--                            android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                            android:fontFamily="@font/roboto"-->
+        <!--                            android:includeFontPadding="false"-->
+        <!--                            android:text="About the Course"-->
+        <!--                            android:textColor="@color/lightTextColor"-->
+        <!--                            android:textSize="@dimen/_12ssp" />-->
+
+        <!--                    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--                    <TextView-->
+        <!--                        android:id="@+id/s_about_course"-->
+        <!--                        android:layout_width="0dp"-->
+        <!--                        android:layout_height="wrap_content"-->
+        <!--                        android:layout_gravity="end|center_vertical"-->
+        <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+        <!--                        android:layout_weight="50"-->
+        <!--                        android:fontFamily="@font/roboto_medium"-->
+        <!--                        android:gravity="end"-->
+        <!--                        android:includeFontPadding="false"-->
+        <!--                        android:text="N/A"-->
+        <!--                        android:textColor="@color/deepTextColor"-->
+        <!--                        android:textSize="@dimen/_12ssp" />-->
+
+
+        <!--                </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+        <!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <!--        </com.google.android.material.card.MaterialCardView>-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_menu_book_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Recommended Books"
+                android:textColor="@color/deepTextColor"
+                android:textSize="@dimen/_12ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_2sdp"
+            app:cardElevation="0dp"
+            app:contentPadding="@dimen/_8sdp"
+            app:strokeColor="@color/borderColor"
+            app:strokeWidth="0.3dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/_2sdp"
+                    app:cardElevation="@dimen/_2sdp">
+
+                    <ImageView
+                        android:id="@+id/book_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/book_of_biology" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Name : "
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                        <TextView
+                            android:id="@+id/s_book_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:includeFontPadding="false"
+                            android:text="Concept Of Biology"
+                            android:textColor="@color/deepTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:includeFontPadding="false"
+                            android:text="Author : "
+                            android:textColor="@color/lightTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                        <TextView
+                            android:id="@+id/s_author_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:text="Bruce Alberts"
+                            android:textColor="@color/deepTextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="@dimen/_2sdp"
+                        app:cardElevation="0dp">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/roboto"
+                                android:includeFontPadding="false"
+                                android:text="Read"
+                                android:textColor="@color/deepTextColor"
+                                android:textSize="@dimen/_12ssp" />
+
+                            <com.google.android.material.progressindicator.LinearProgressIndicator
+                                android:id="@+id/s_read_progress"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:progress="50"
+                                app:indicatorColor="@color/themeColor"
+                                app:indicatorDirectionLinear="startToEnd"
+                                app:trackColor="@color/backgroundColor"
+                                app:trackCornerRadius="@dimen/_10sdp"
+                                app:trackThickness="@dimen/_10sdp" />
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_credit_score_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Students Credit Score"
+                android:textColor="@color/deepTextColor"
+                android:textSize="@dimen/_12ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_2sdp"
+            app:cardElevation="0dp"
+            app:contentPadding="@dimen/_8sdp"
+            app:strokeColor="@color/borderColor"
+            app:strokeWidth="0.3dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_cat_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Reading Progress : "
+                        android:textColor="@color/lightTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="50%"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/s_progress_bar_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:progress="50"
+                    app:indicatorColor="@color/transThemeColor"
+                    app:indicatorDirectionLinear="startToEnd"
+                    app:trackColor="@color/backgroundColor"
+                    app:trackCornerRadius="@dimen/_2sdp"
+                    app:trackThickness="@dimen/_20sdp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_cat_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Reading Progress : "
+                        android:textColor="@color/lightTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="40%"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/s_progress_bar_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:progress="40"
+                    app:indicatorColor="@color/transThemeColor"
+                    app:indicatorDirectionLinear="startToEnd"
+                    app:trackColor="@color/backgroundColor"
+                    app:trackCornerRadius="@dimen/_2sdp"
+                    app:trackThickness="@dimen/_20sdp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_cat_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Reading Progress : "
+                        android:textColor="@color/lightTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="60%"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/s_progress_bar_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:progress="60"
+                    app:indicatorColor="@color/transThemeColor"
+                    app:indicatorDirectionLinear="startToEnd"
+                    app:trackColor="@color/backgroundColor"
+                    app:trackCornerRadius="@dimen/_2sdp"
+                    app:trackThickness="@dimen/_20sdp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_cat_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Reading Progress : "
+                        android:textColor="@color/lightTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="70%"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/s_progress_bar_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:progress="70"
+                    app:indicatorColor="@color/transThemeColor"
+                    app:indicatorDirectionLinear="startToEnd"
+                    app:trackColor="@color/backgroundColor"
+                    app:trackCornerRadius="@dimen/_2sdp"
+                    app:trackThickness="@dimen/_20sdp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_cat_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Reading Progress : "
+                        android:textColor="@color/lightTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/s_progress_tv_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="90%"
+                        android:textColor="@color/deepTextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/s_progress_bar_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:progress="90"
+                    app:indicatorColor="@color/transThemeColor"
+                    app:indicatorDirectionLinear="startToEnd"
+                    app:trackColor="@color/backgroundColor"
+                    app:trackCornerRadius="@dimen/_2sdp"
+                    app:trackThickness="@dimen/_20sdp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".Class_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/design_notice_5"/>
+        <include layout="@layout/design_notice_5"/>
+        <include layout="@layout/design_notice_5"/>
+        <include layout="@layout/design_notice_5"/>
+        <include layout="@layout/design_notice_5"/>
+
+
+        <include layout="@layout/design_notice_4"/>
+        <include layout="@layout/design_notice_4"/>
+        <include layout="@layout/design_notice_4"/>
+
+        <include layout="@layout/discussion_design_new_5"/>
+        <include layout="@layout/discussion_design_new_5"/>
+        <include layout="@layout/discussion_design_new_5"/>
+        <include layout="@layout/discussion_design_new_5"/>
+        <include layout="@layout/discussion_design_new_5"/>
+
+        <include layout="@layout/design_notice_3"/>
+        <include layout="@layout/design_notice_3"/>
+        <include layout="@layout/design_notice_3"/>
+
+
+
+
+        <include layout="@layout/assignment_card_design_2" />
+        <include layout="@layout/assignment_card_design_2" />
+        <include layout="@layout/assignment_card_design_2" />
+        <include layout="@layout/assignment_card_design_2" />
+
+        <include layout="@layout/class_card_design_1" />
+
+        <include layout="@layout/class_card_design_1" />
+
+        <include layout="@layout/class_card_design_1" />
+
+        <include layout="@layout/class_card_design_1" />
+
+    </LinearLayout>
+
+</ScrollView>
