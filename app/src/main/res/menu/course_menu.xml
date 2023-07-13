@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/course_card_delete"
-        android:title="Edit"/>
+        android:id="@+id/restToDefult"
+        android:title="Rest To Default" />
+
+    <item
+        android:id="@+id/ImportAsyllabus"
+        android:title="Import A Syllabus" />
+
+    <item
+        android:id="@+id/Edit"
+        android:title="Edit" />
+
+    <item
+        android:id="@+id/Delete"
+        android:title="Delete" />
+
+
 </menu>

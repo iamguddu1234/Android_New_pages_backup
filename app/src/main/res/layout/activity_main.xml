@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainAc"
@@ -43,6 +43,17 @@
 
         <!--        <include layout="@layout/design_notice_2"/>-->
         <!--        <include layout="@layout/class_card_design_1"/>-->
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tabnew"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="New Tab Layout"
+            android:textSize="@dimen/_10ssp" />
 
 
         <com.google.android.material.button.MaterialButton
@@ -344,4 +355,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

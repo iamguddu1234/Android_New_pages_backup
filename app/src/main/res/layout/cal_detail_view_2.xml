@@ -7,7 +7,7 @@
     android:layout_marginVertical="@dimen/_5sdp"
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="@dimen/_6sdp"
-    app:cardElevation="0dp"
+    app:cardElevation="@dimen/_1sdp"
     app:strokeColor="@color/borderColorLight"
     app:strokeWidth="0.9dp">
 
@@ -51,6 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_4sdp"
+                android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <TextView
@@ -98,11 +99,11 @@
 
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="@dimen/_60sdp"
+            android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_24sdp"
             android:layout_gravity="end"
             app:cardBackgroundColor="@color/themeColor"
-            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
             app:cardElevation="0dp"
             app:strokeWidth="0dp">
 

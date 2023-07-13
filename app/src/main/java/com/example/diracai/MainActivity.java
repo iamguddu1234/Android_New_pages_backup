@@ -25,6 +25,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        Button newButton = findViewById(R.id.tabnew);
+        newButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, demo_tab_layout.class);
+                startActivity(intent);
+            }
+        });
+
         Button buttonaa = findViewById(R.id.cal_detail);
         buttonaa.setOnClickListener(new View.OnClickListener() {
             @Override
